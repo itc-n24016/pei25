@@ -8,3 +8,7 @@ print(list_p)
 print(len(phrase), len(list_p))
 print(len(phrase) - len(list_p))
 print("".join(list_p))#""で文字区切りをなくして、そのまま結合するようにしている
+#例
+for p in list_p:
+    print(p, end="")
+print()#改行のみ出力
