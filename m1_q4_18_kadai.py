@@ -7,4 +7,4 @@ for p in phrase:
 print(list_p)
 print(len(phrase), len(list_p))
 print(len(phrase) - len(list_p))
-print("".join(list_p))
+print("".join(list_p))#""で文字区切りをなくして、そのまま結合するようにしている
