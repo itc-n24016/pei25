@@ -13,3 +13,5 @@ else:
 	result = 'D'
 print(id_a, id_b)
 print(result)
+print(id_a, id(a))
+print(type(id_a))
