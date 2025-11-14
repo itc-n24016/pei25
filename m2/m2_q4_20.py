@@ -6,5 +6,5 @@ while num < 5 :
         i -= 6
         list_a.append(i)
     num += 1
-print(sum(list_a))
+print(sum(list_a))# 合計
 print(list_a)
