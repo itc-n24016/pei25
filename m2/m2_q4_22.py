@@ -1,4 +1,4 @@
-list_a = ['Yokohama', 'Osaka', 'Nagoya', 'Sapporo']
+list_a = ['Yokohama', 'Osaka', 'Nagoya', 'Sapporo', 'Fukuoka']
 list_b = []
 list_c = []
 list_d = []
