@@ -21,8 +21,8 @@ def hikaku(ganpon, nenri, nensu):# 複利と単利の合計受取額の差を表
 
 def hitsuyou_nensu(ganpon, nenri,uketori):#一定額の利息を得るまでにかかる年数
     print(f'年利{nenri:.0%}で利子を{uketori}万円受け取るには')
-    kaku_f = 0　#これまでに得た利息の合計(円)
-    year_f = 0　#経過年数
+    kaku_f = 0#これまでに得た利息の合計(円)
+    year_f = 0#経過年数
     while kaku_f < uketori * 10000:#利息額が目標額に達するまでのループ
         kaku_f = fukuri(ganpon, nenri, year_f + 1) - ganpon * 10000#year_t + 1年後の利息合計
         year_f += 1
