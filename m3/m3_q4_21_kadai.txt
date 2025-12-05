@@ -1,0 +1,18 @@
+a = 0b101100
+b = 0b110110
+c = []
+
+c.append(bin(a & b).count('1'))
+対応するビットが両方1の時だけ1
+->0b100100
+c.append(bin(a | b).count('1'))
+どちらかが1の時1
+->0b111110
+c.append(bin(a ^ b).count('1'))
+ビットが異なるときだけ1
+->0b011010
+c.append(bin(a >> 2).count('1'))
+ビット列を右にずらす
+->0b001011
+
+print(c)
